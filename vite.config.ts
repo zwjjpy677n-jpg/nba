@@ -14,13 +14,14 @@ export default defineConfig({
         short_name: 'NBA',
         lang: 'ja',
         display: 'standalone',
-        theme_color: '#0C2340',
-        background_color: '#0C2340',
+        theme_color: '#07061a',
+        background_color: '#07061a',
         start_url: '/nba/',
         scope: '/nba/',
         icons: [
           { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
-          { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any maskable' },
+          { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any' },
+          { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
       },
       workbox: {
