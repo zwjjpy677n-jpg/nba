@@ -4,6 +4,7 @@ import { useFavoriteTeam } from '../lib/settings';
 import StandingsTable from '../components/StandingsTable';
 import ErrorState from '../components/ErrorState';
 import StaleBadge from '../components/StaleBadge';
+import Pills from '../components/Pills';
 
 type Conf = 'east' | 'west';
 
@@ -17,18 +18,12 @@ export default function Standings() {
   return (
     <section className="screen">
       <h1>順位</h1>
-      <div className="segmented" role="group" aria-label="カンファレンス">
-        {(['east', 'west'] as const).map((c) => (
-          <button key={c} type="button" aria-pressed={conf === c} onClick={() => setPicked(c)}>
-            {c === 'east' ? '東' : '西'}
-          </button>
-        ))}
-      </div>
+      <Pills label="カンファレンス" value={conf} onChange={setPicked} options={[['east', '東'], ['west', '西']]} />
       <StaleBadge updatedAt={q.dataUpdatedAt} isError={q.isError} />
       {q.isPending ? (
         <p className="muted">読み込み中…</p>
       ) : q.data ? (
-        <StandingsTable rows={q.data.filter((r) => r.conference === conf)} highlightAbbr={fav} />
+        <div className="glass table-card"><StandingsTable rows={q.data.filter((r) => r.conference === conf)} highlightAbbr={fav} /></div>
       ) : (
         <ErrorState onRetry={() => q.refetch()} />
       )}

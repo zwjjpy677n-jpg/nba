@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { usePlayerStats, useTeams, useTeamStats } from '../hooks/queries';
+import { useAthleteProfile, useGameLog, usePlayerStats, useTeams, useTeamStats } from '../hooks/queries';
 import { hasStats } from '../api/players';
 import type { PlayerHit, PlayerSeasonStats, TeamSeasonStats } from '../api/types';
 import { fmtNum, fmtPct } from '../lib/format';
@@ -9,6 +9,8 @@ import StatGrid from '../components/StatGrid';
 import CompareBars from '../components/CompareBars';
 import ErrorState from '../components/ErrorState';
 import StaleBadge from '../components/StaleBadge';
+import Pills from '../components/Pills';
+import PointsChart from '../components/PointsChart';
 
 type Mode = 'player' | 'compare' | 'team';
 
@@ -42,15 +44,60 @@ function teamItems(s: TeamSeasonStats) {
   ];
 }
 
+function PlayerCard({ player, stats }: { player: PlayerHit; stats: PlayerSeasonStats }) {
+  const profile = useAthleteProfile(player.id).data;
+  const meta = [
+    profile?.jersey ? `#${profile.jersey}` : null,
+    profile?.position,
+    profile?.teamAbbr?.toUpperCase(),
+  ].filter(Boolean).join('  ');
+  return (
+    <div className="player-card glass">
+      {profile?.headshot ? (
+        <img className="pc-photo" src={profile.headshot} alt="" crossOrigin="anonymous" />
+      ) : (
+        <span className="pc-photo ph" />
+      )}
+      <div className="pc-body">
+        <h2>{player.name}</h2>
+        <p className="muted">{meta || player.teamName || '—'}</p>
+        <div className="pc-tiles">
+          <div><b>{fmtNum(stats.pts)}</b><span>PPG</span></div>
+          <div><b>{fmtNum(stats.reb)}</b><span>RPG</span></div>
+          <div><b>{fmtNum(stats.ast)}</b><span>APG</span></div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function PlayerStatsView({ player }: { player: PlayerHit }) {
   const q = usePlayerStats(player.id);
+  const log = useGameLog(player.id);
   if (q.isPending) return <p className="muted">読み込み中…</p>;
   if (!q.data) return <ErrorState onRetry={() => q.refetch()} />;
   return (
     <div>
       <StaleBadge updatedAt={q.dataUpdatedAt} isError={q.isError} />
-      <h2 className="sub">{player.name}{player.teamName && <span className="muted small"> {player.teamName}</span>}</h2>
-      {hasStats(q.data) ? <StatGrid items={playerItems(q.data)} /> : <p className="empty">今季の出場記録はありません</p>}
+      <PlayerCard player={player} stats={q.data} />
+      {hasStats(q.data) ? (
+        <>
+          <h2 className="section-title">今シーズン平均</h2>
+          <StatGrid items={playerItems(q.data)} />
+          <h2 className="section-title">試合ごとの得点</h2>
+          <div className="glass chart-card">
+            {log.isPending ? (
+              <p className="muted">読み込み中…</p>
+            ) : log.data ? (
+              <PointsChart points={log.data} />
+            ) : (
+              <ErrorState onRetry={() => log.refetch()} />
+            )}
+          </div>
+        </>
+      ) : (
+        <p className="empty">今季の出場記録はありません</p>
+      )}
     </div>
   );
 }
@@ -124,11 +171,7 @@ export default function Stats() {
   return (
     <section className="screen">
       <h1>スタッツ</h1>
-      <div className="segmented" role="group" aria-label="表示">
-        {tabs.map(([m, label]) => (
-          <button key={m} type="button" aria-pressed={mode === m} onClick={() => setMode(m)}>{label}</button>
-        ))}
-      </div>
+      <Pills label="表示" value={mode} onChange={setMode} options={tabs} />
       {mode === 'player' && <PlayerMode />}
       {mode === 'compare' && <CompareMode />}
       {mode === 'team' && <TeamMode />}

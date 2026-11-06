@@ -2,36 +2,52 @@ import { Link } from 'react-router-dom';
 import type { Game, GameSide } from '../api/types';
 import { formatJstTime } from '../lib/dates';
 import TeamLogo from './TeamLogo';
+import { ChevronRight } from './Icons';
 
 function statusLabel(game: Game): string {
   if (game.state === 'pre') return `開始 ${formatJstTime(game.start)}`;
-  if (game.state === 'post') return game.completed ? '終了' : game.statusText || '中止';
+  if (game.state === 'post') return game.completed ? 'FINAL' : game.statusText || '中止';
   return game.statusText;
 }
 
-function Row({ side, state, highlight }: { side: GameSide; state: Game['state']; highlight: boolean }) {
-  const cls = ['sc-row', side.winner ? 'winner' : '', highlight ? 'fav' : ''].filter(Boolean).join(' ');
+function Side({ side, highlight }: { side: GameSide; highlight: boolean }) {
   return (
-    <div className={cls}>
-      <TeamLogo src={side.team.logo} />
-      <span className="sc-name">{side.team.shortName}</span>
-      {side.record && state === 'pre' && <span className="sc-record">{side.record}</span>}
-      {state !== 'pre' && <span className="score">{side.score ?? '—'}</span>}
+    <div className={`sc-side ${highlight ? 'fav' : ''}`}>
+      <TeamLogo src={side.team.logo} size={40} />
+      <span className="sc-abbr">{side.team.abbr.toUpperCase()}</span>
     </div>
   );
 }
 
 export default function ScoreCard({ game, highlightAbbr }: { game: Game; highlightAbbr?: string }) {
+  const { away, home } = game;
+  const cls = (s: GameSide) => `score ${s.winner ? 'win' : ''}`;
   return (
-    <Link to={`/games/${game.id}`} className={`score-card state-${game.state}`}>
-      <div className="sc-teams">
-        <Row side={game.away} state={game.state} highlight={game.away.team.abbr === highlightAbbr} />
-        <Row side={game.home} state={game.state} highlight={game.home.team.abbr === highlightAbbr} />
+    <Link
+      to={`/games/${game.id}`}
+      className={`score-card glass state-${game.state}`}
+      aria-label={`${away.team.name} 対 ${home.team.name}`}
+    >
+      <Side side={away} highlight={away.team.abbr === highlightAbbr} />
+      <div className="sc-center">
+        {game.state === 'pre' ? (
+          <span className="sc-time">{statusLabel(game)}</span>
+        ) : (
+          <>
+            <div className="sc-scores">
+              <span className={cls(away)}>{away.score ?? '—'}</span>
+              <span className="sc-dash">-</span>
+              <span className={cls(home)}>{home.score ?? '—'}</span>
+            </div>
+            <span className="sc-status">
+              {game.state === 'in' && <span className="live-dot" aria-hidden="true" />}
+              {statusLabel(game)}
+            </span>
+          </>
+        )}
       </div>
-      <div className="sc-status">
-        {game.state === 'in' && <span className="live-dot" aria-hidden="true" />}
-        {statusLabel(game)}
-      </div>
+      <Side side={home} highlight={home.team.abbr === highlightAbbr} />
+      <span className="sc-chev"><ChevronRight /></span>
     </Link>
   );
 }

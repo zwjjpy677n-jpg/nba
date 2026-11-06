@@ -8,7 +8,7 @@ const fx = (name: string) => JSON.parse(readFileSync(path.join(dir, `${name}.jso
 
 export type MockKey =
   | 'scoreboard' | 'summary' | 'standings' | 'teams' | 'schedule'
-  | 'roster' | 'teamstats' | 'search' | 'overview';
+  | 'roster' | 'teamstats' | 'search' | 'overview' | 'leaders' | 'athlete' | 'gamelog';
 export type Overrides = Partial<Record<MockKey, object | 'error'>>;
 
 export const FIXTURE_NOW = new Date('2026-11-05T03:00:00Z'); // JST 2026-11-05 12:00
@@ -23,9 +23,15 @@ const defaults: Record<MockKey, () => object> = {
   teamstats: () => fx('teamstats-min'),
   search: () => fx('search-edwards'),
   overview: () => fx('overview-4594268'),
+  leaders: () => fx('leaders'),
+  athlete: () => fx('athlete-4594268'),
+  gamelog: () => fx('gamelog-4594268'),
 };
 
 function keyFor(url: string): MockKey | null {
+  if (url.includes('/statistics/byathlete')) return 'leaders';
+  if (url.includes('/gamelog')) return 'gamelog';
+  if (/\/athletes\/\d+(\?|$)/.test(url)) return 'athlete';
   if (url.includes('/scoreboard')) return 'scoreboard';
   if (url.includes('/summary')) return 'summary';
   if (url.includes('/standings')) return 'standings';

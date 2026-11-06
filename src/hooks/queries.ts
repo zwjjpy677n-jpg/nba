@@ -5,6 +5,7 @@ import { fetchStandings } from '../api/standings';
 import { fetchRoster, fetchTeams, fetchTeamStats } from '../api/teams';
 import { fetchSchedule } from '../api/schedule';
 import { fetchPlayerStats, searchPlayers } from '../api/players';
+import { fetchAthleteProfile, fetchGameLog, fetchScoringLeaders } from '../api/athletes';
 import type { Game, RosterPlayer } from '../api/types';
 
 const MIN = 60_000;
@@ -91,5 +92,27 @@ export function useRosterStats(players: RosterPlayer[]) {
       queryFn: () => fetchPlayerStats(p.id),
       staleTime: HALF_HOUR,
     })),
+  });
+}
+
+export function useScoringLeaders() {
+  return useQuery({ queryKey: ['leaders'], queryFn: () => fetchScoringLeaders(3), staleTime: HALF_HOUR });
+}
+
+export function useAthleteProfile(id: string | null) {
+  return useQuery({
+    queryKey: ['athlete', id],
+    queryFn: () => fetchAthleteProfile(id!),
+    enabled: id !== null,
+    staleTime: DAY,
+  });
+}
+
+export function useGameLog(id: string | null) {
+  return useQuery({
+    queryKey: ['gamelog', id],
+    queryFn: () => fetchGameLog(id!),
+    enabled: id !== null,
+    staleTime: HALF_HOUR,
   });
 }

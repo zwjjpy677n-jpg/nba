@@ -10,7 +10,7 @@ function Header({ game }: { game: Game }) {
   const periods = Math.max(game.home.linescores.length, game.away.linescores.length);
   const label = (i: number) => (i < 4 ? `${i + 1}Q` : `OT${i - 3 === 1 ? '' : i - 3}`);
   return (
-    <div className="gd-header">
+    <div className="gd-header glass">
       <div className="gd-score">
         {[game.away, game.home].map((s) => (
           <div key={s.homeAway} className={`gd-side ${s.winner ? 'winner' : ''}`}>
