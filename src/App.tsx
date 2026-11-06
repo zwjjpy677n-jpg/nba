@@ -1,4 +1,5 @@
-import { NavLink, Route, Routes, Link } from 'react-router-dom';
+import { NavLink, Route, Routes, Link, useLocation } from 'react-router-dom';
+import ScreenBoundary from './components/ScreenBoundary';
 import Home from './screens/Home';
 import Games from './screens/Games';
 import GameDetail from './screens/GameDetail';
@@ -14,6 +15,7 @@ const TABS = [
 ];
 
 export default function App() {
+  const location = useLocation();
   return (
     <div className="app">
       <header className="topbar">
@@ -23,6 +25,7 @@ export default function App() {
         </Link>
       </header>
       <main className="content">
+        <ScreenBoundary key={location.pathname}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/games" element={<Games />} />
@@ -31,6 +34,7 @@ export default function App() {
           <Route path="/stats" element={<Stats />} />
           <Route path="/settings" element={<Settings />} />
         </Routes>
+        </ScreenBoundary>
       </main>
       <nav className="tabbar">
         {TABS.map((t) => (
