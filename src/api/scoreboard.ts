@@ -10,12 +10,14 @@ export function parseTeamRef(raw: unknown): TeamRef | null {
   if (!id || !abbr) return null;
   const logos = arr(t.logos);
   const logo = str(t.logo) ?? str(obj(logos[0]).href);
+  const hex = str(t.color);
   return {
     id,
     abbr: abbr.toLowerCase(),
     name: str(t.displayName) ?? abbr,
     shortName: str(t.shortDisplayName) ?? str(t.name) ?? abbr,
     logo,
+    color: hex && /^[0-9a-f]{6}$/i.test(hex) ? `#${hex}` : null,
   };
 }
 
