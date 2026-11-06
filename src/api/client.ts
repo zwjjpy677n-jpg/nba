@@ -15,6 +15,34 @@ export class ApiError extends Error {
   }
 }
 
+const cachedAtByUrl = new Map<string, number>();
+const cacheListeners = new Set<() => void>();
+let oldest: number | null = null;
+
+function recompute() {
+  const vals = [...cachedAtByUrl.values()];
+  const next = vals.length ? Math.min(...vals) : null;
+  if (next !== oldest) {
+    oldest = next;
+    cacheListeners.forEach((l) => l());
+  }
+}
+
+/** Oldest save time of any ESPN response currently shown from the service-worker cache. */
+export function getOldestCachedAt(): number | null {
+  return oldest;
+}
+
+export function subscribeCacheInfo(cb: () => void): () => void {
+  cacheListeners.add(cb);
+  return () => cacheListeners.delete(cb);
+}
+
+export function resetCacheInfo(): void {
+  cachedAtByUrl.clear();
+  recompute();
+}
+
 export async function fetchJson(url: string, timeoutMs = 10000): Promise<unknown> {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), timeoutMs);
@@ -28,9 +56,20 @@ export async function fetchJson(url: string, timeoutMs = 10000): Promise<unknown
     clearTimeout(timer);
   }
   if (!res.ok) throw new ApiError('http', `HTTP ${res.status}: ${url}`, res.status);
+  let data: unknown;
   try {
-    return await res.json();
+    data = await res.json();
   } catch {
     throw new ApiError('parse', `invalid JSON: ${url}`);
   }
+  // The service worker adds nbaCachedAt when it serves a saved copy (offline / slow network).
+  const marker = data !== null && typeof data === 'object' ? (data as Record<string, unknown>).nbaCachedAt : undefined;
+  if (typeof marker === 'number' && marker > 0) {
+    cachedAtByUrl.set(url, marker);
+    delete (data as Record<string, unknown>).nbaCachedAt;
+  } else {
+    cachedAtByUrl.delete(url);
+  }
+  recompute();
+  return data;
 }

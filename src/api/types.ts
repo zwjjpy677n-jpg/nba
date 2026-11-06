@@ -1,7 +1,7 @@
 export type GameState = 'pre' | 'in' | 'post';
 export interface TeamRef { id: string; abbr: string; name: string; shortName: string; logo: string | null }
 export interface GameSide { team: TeamRef; homeAway: 'home' | 'away'; score: number | null; winner: boolean | null; linescores: number[]; record: string | null }
-export interface Game { id: string; start: string; state: GameState; statusText: string; home: GameSide; away: GameSide }
+export interface Game { id: string; start: string; state: GameState; completed: boolean; statusText: string; home: GameSide; away: GameSide }
 export interface BoxPlayer { id: string; name: string; starter: boolean; dnp: boolean; stats: string[] }
 export interface BoxTeam { teamAbbr: string; labels: string[]; players: BoxPlayer[] }
 export interface GameDetail { game: Game; box: BoxTeam[] }

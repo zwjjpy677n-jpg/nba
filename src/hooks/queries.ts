@@ -18,6 +18,15 @@ export function liveInterval(games: Game[] | undefined, idleMs: number | false):
   return games?.some((g) => g.state === 'in') ? LIVE_MS : idleMs;
 }
 
+const PRE_GAME_WINDOW_MS = 15 * MIN;
+
+export function detailInterval(game: Game | undefined, now: number = Date.now()): number | false {
+  if (!game) return false;
+  if (game.state === 'in') return LIVE_MS;
+  if (game.state === 'pre' && Date.parse(game.start) - now <= PRE_GAME_WINDOW_MS) return MIN;
+  return false;
+}
+
 export function useGamesForDay(jstDate: string) {
   return useQuery({
     queryKey: ['games', jstDate],
@@ -32,7 +41,7 @@ export function useGameDetail(id: string) {
     queryKey: ['game', id],
     queryFn: () => fetchGameDetail(id),
     staleTime: LIVE_MS,
-    refetchInterval: (q) => liveInterval(q.state.data ? [q.state.data.game] : undefined, false),
+    refetchInterval: (q) => detailInterval(q.state.data?.game),
   });
 }
 

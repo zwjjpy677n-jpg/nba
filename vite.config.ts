@@ -32,6 +32,39 @@ export default defineConfig({
               cacheName: 'espn-api',
               networkTimeoutSeconds: 8,
               expiration: { maxEntries: 200, maxAgeSeconds: 7 * 24 * 3600 },
+              plugins: [
+                {
+                  // Stamp when the response was saved so the page can show "◯分前の情報" offline.
+                  cacheWillUpdate: async ({ response }) => {
+                    if (!response || response.status !== 200) return null;
+                    const headers = new Headers(response.headers);
+                    headers.set('x-cached-at', String(Date.now()));
+                    return new Response(await response.blob(), {
+                      status: response.status,
+                      statusText: response.statusText,
+                      headers,
+                    });
+                  },
+                  // Cross-origin headers stay hidden from the page, so mark the JSON body instead.
+                  cachedResponseWillBeUsed: async ({ cachedResponse }) => {
+                    if (!cachedResponse) return null;
+                    const savedAt = Number(cachedResponse.headers.get('x-cached-at'));
+                    try {
+                      const body = await cachedResponse.clone().json();
+                      if (body && typeof body === 'object' && !Array.isArray(body) && savedAt > 0) {
+                        body.nbaCachedAt = savedAt;
+                        return new Response(JSON.stringify(body), {
+                          status: 200,
+                          headers: { 'content-type': 'application/json' },
+                        });
+                      }
+                    } catch {
+                      // not JSON; serve as-is
+                    }
+                    return cachedResponse;
+                  },
+                },
+              ],
             },
           },
           {

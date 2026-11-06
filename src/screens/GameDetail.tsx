@@ -21,7 +21,7 @@ function Header({ game }: { game: Game }) {
         ))}
       </div>
       <p className="muted center">
-        {game.state === 'pre' ? `開始 ${formatJstDateTime(game.start)}` : game.state === 'post' ? '終了' : game.statusText}
+        {game.state === 'pre' ? `開始 ${formatJstDateTime(game.start)}` : game.state === 'post' ? (game.completed ? '終了' : game.statusText || '中止') : game.statusText}
       </p>
       {periods > 0 && (
         <div className="table-wrap">

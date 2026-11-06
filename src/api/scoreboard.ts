@@ -55,6 +55,7 @@ export function parseCompetition(comp: unknown, id: string, start: string): Game
     id,
     start,
     state,
+    completed: state === 'post' && statusType.completed !== false,
     statusText: str(statusType.shortDetail) ?? str(statusType.detail) ?? '',
     home,
     away,

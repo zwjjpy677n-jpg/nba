@@ -43,10 +43,10 @@ function Recent({ games, abbr }: { games: Game[]; abbr: string }) {
       {games.map((g) => {
         const me = sideOf(g, abbr);
         const opp = oppOf(g, abbr);
-        const win = me.winner === true;
+        const wl = me.winner === true ? 'W' : me.winner === false ? 'L' : '—';
         return (
-          <li key={g.id} className={win ? 'w' : 'l'}>
-            <span className="wl">{win ? 'W' : 'L'}</span>
+          <li key={g.id} className={wl === 'W' ? 'w' : wl === 'L' ? 'l' : ''}>
+            <span className="wl">{wl}</span>
             <span className="recent-score">{me.score ?? '—'}-{opp.score ?? '—'}</span>
             <span className="recent-opp">{me.homeAway === 'home' ? 'vs' : '@'} {opp.team.shortName}</span>
             <span className="muted small">{formatJstDateTime(g.start).split(' ')[0]}</span>
@@ -98,7 +98,7 @@ export default function Home() {
   const live = today.data?.find((g) => g.state === 'in' && (g.home.team.abbr === abbr || g.away.team.abbr === abbr));
   const games = schedule.data ?? [];
   const next = games.find((g) => g.state === 'pre');
-  const recent = games.filter((g) => g.state === 'post').slice(-5).reverse();
+  const recent = games.filter((g) => g.state === 'post' && g.completed).slice(-5).reverse();
   const conf = standings.data?.find((r) => r.team.abbr === abbr)?.conference;
 
   return (

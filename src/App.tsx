@@ -1,5 +1,6 @@
 import { NavLink, Route, Routes, Link, useLocation } from 'react-router-dom';
 import ScreenBoundary from './components/ScreenBoundary';
+import OfflineBanner from './components/OfflineBanner';
 import Home from './screens/Home';
 import Games from './screens/Games';
 import GameDetail from './screens/GameDetail';
@@ -25,6 +26,7 @@ export default function App() {
         </Link>
       </header>
       <main className="content">
+        <OfflineBanner />
         <ScreenBoundary key={location.pathname}>
         <Routes>
           <Route path="/" element={<Home />} />

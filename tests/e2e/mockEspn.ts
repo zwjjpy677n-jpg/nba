@@ -1,4 +1,4 @@
-import type { Page } from '@playwright/test';
+import type { BrowserContext, Page } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
@@ -43,9 +43,9 @@ const PNG_1PX = Buffer.from(
   'base64',
 );
 
-export async function mockEspn(page: Page, overrides: Overrides = {}) {
+export async function mockEspn(page: Page, overrides: Overrides = {}, target: Page | BrowserContext = page) {
   await page.clock.setFixedTime(FIXTURE_NOW);
-  await page.route(/^https:\/\/site(\.web)?\.api\.espn\.com\//, async (route) => {
+  await target.route(/^https:\/\/site(\.web)?\.api\.espn\.com\//, async (route) => {
     const key = keyFor(route.request().url());
     if (!key) return route.fulfill({ status: 404, body: 'unmocked' });
     const o = overrides[key];
@@ -57,7 +57,7 @@ export async function mockEspn(page: Page, overrides: Overrides = {}) {
       body: JSON.stringify(o ?? defaults[key]()),
     });
   });
-  await page.route(/^https:\/\/a\.espncdn\.com\//, (route) =>
+  await target.route(/^https:\/\/a\.espncdn\.com\//, (route) =>
     route.fulfill({ status: 200, contentType: 'image/png', body: PNG_1PX }),
   );
 }

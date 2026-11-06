@@ -5,7 +5,7 @@ import TeamLogo from './TeamLogo';
 
 function statusLabel(game: Game): string {
   if (game.state === 'pre') return `開始 ${formatJstTime(game.start)}`;
-  if (game.state === 'post') return '終了';
+  if (game.state === 'post') return game.completed ? '終了' : game.statusText || '中止';
   return game.statusText;
 }
 
