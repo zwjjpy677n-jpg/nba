@@ -155,3 +155,4 @@ th[scope='row'] { text-align: left; font-weight: 500; }
 .team-picker button[aria-pressed='true'] { color: var(--accent); font-weight: 700; }
 .team-picker .check { margin-left: auto; }
 .credit { margin-top: 16px; text-align: center; }
+.box thead th.sticky, .box th.sticky { text-align: left; }

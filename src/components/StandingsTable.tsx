@@ -29,9 +29,11 @@ export default function StandingsTable({ rows, highlightAbbr, compact = false }:
           return (
             <tr key={r.team.id} className={fav ? 'fav' : ''} aria-current={fav ? 'true' : undefined}>
               <td>{r.seed ?? '—'}</td>
-              <th scope="row" className="team-cell">
-                <TeamLogo src={r.team.logo} size={20} />
-                <span>{r.team.shortName}</span>
+              <th scope="row" className="left">
+                <div className="team-cell">
+                  <TeamLogo src={r.team.logo} size={20} />
+                  <span>{r.team.shortName}</span>
+                </div>
               </th>
               <td>{r.wins ?? '—'}</td>
               <td>{r.losses ?? '—'}</td>

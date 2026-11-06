@@ -34,7 +34,7 @@ function parseSide(raw: unknown, state: GameState): GameSide | null {
     homeAway,
     score: state === 'pre' ? null : parseScore(c.score),
     winner: typeof c.winner === 'boolean' ? c.winner : null,
-    linescores: state === 'pre' ? [] : arr(c.linescores).map((l) => num(obj(l).value) ?? 0),
+    linescores: state === 'pre' ? [] : arr(c.linescores).map((l) => num(obj(l).value) ?? num(obj(l).displayValue) ?? 0),
     record: str(obj(records[0]).summary) ?? str(obj(records[0]).displayValue),
   };
 }

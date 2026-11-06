@@ -15,6 +15,12 @@ describe('parseGameDetail', () => {
     expect(all.some((p) => p.dnp)).toBe(true);
     expect(all.filter((p) => p.dnp).every((p) => p.stats.length === 0)).toBe(true);
   });
+  it('reads quarter scores from displayValue and they sum to the final score', () => {
+    const d = parseGameDetail(summary, '401909922')!;
+    for (const side of [d.game.home, d.game.away]) {
+      expect(side.linescores.reduce((a, b) => a + b, 0)).toBe(side.score);
+    }
+  });
   it('returns null on invalid input', () => {
     expect(parseGameDetail(null, '1')).toBeNull();
     expect(parseGameDetail({}, '1')).toBeNull();
