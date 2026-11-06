@@ -13,7 +13,7 @@ describe('fetchJson', () => {
   });
   it('maps network errors', async () => {
     vi.stubGlobal('fetch', vi.fn(async () => { throw new TypeError('Failed to fetch'); }));
-    const err = await fetchJson('https://x').catch((e) => e);
+    const err = (await fetchJson('https://x').catch((e: unknown) => e)) as ApiError;
     expect(err).toBeInstanceOf(ApiError);
     expect(err.kind).toBe('network');
   });
