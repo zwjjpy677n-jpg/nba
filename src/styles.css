@@ -89,3 +89,12 @@ th[scope='row'] { text-align: left; font-weight: 500; }
 .box .sticky { position: sticky; left: 0; background: var(--bg); z-index: 1; }
 .box tr.starter th[scope='row'] { font-weight: 700; }
 .box td.muted { text-align: left; }
+.segmented { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; background: var(--surface); border-radius: 10px; padding: 3px; margin-bottom: 12px; }
+.segmented button { border: 0; background: transparent; padding: 6px 0; border-radius: 8px; color: var(--muted); cursor: pointer; }
+.segmented button[aria-pressed='true'] { background: var(--surface-2); color: var(--text); font-weight: 700; }
+.standings th, .standings td { padding: 7px 4px; }
+.standings .left { text-align: left; }
+.standings .team-cell { display: flex; align-items: center; gap: 6px; max-width: 132px; }
+.standings .team-cell span { overflow: hidden; text-overflow: ellipsis; }
+.standings tr.fav { background: rgba(120, 190, 32, 0.14); }
+.standings tr.fav th, .standings tr.fav td { color: var(--accent); font-weight: 700; }
