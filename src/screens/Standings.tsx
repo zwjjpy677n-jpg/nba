@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useStandings } from '../hooks/queries';
-import { getFavoriteTeam } from '../lib/settings';
+import { useFavoriteTeam } from '../lib/settings';
 import StandingsTable from '../components/StandingsTable';
 import ErrorState from '../components/ErrorState';
 import StaleBadge from '../components/StaleBadge';
@@ -9,7 +9,7 @@ type Conf = 'east' | 'west';
 
 export default function Standings() {
   const q = useStandings();
-  const fav = getFavoriteTeam();
+  const [fav] = useFavoriteTeam();
   const [picked, setPicked] = useState<Conf | null>(null);
   const favConf = q.data?.find((r) => r.team.abbr === fav)?.conference ?? 'west';
   const conf = picked ?? favConf;

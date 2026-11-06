@@ -3,7 +3,7 @@ import { usePlayerStats, useTeams, useTeamStats } from '../hooks/queries';
 import { hasStats } from '../api/players';
 import type { PlayerHit, PlayerSeasonStats, TeamSeasonStats } from '../api/types';
 import { fmtNum, fmtPct } from '../lib/format';
-import { getFavoriteTeam } from '../lib/settings';
+import { useFavoriteTeam } from '../lib/settings';
 import PlayerPicker from '../components/PlayerPicker';
 import StatGrid from '../components/StatGrid';
 import CompareBars from '../components/CompareBars';
@@ -91,7 +91,8 @@ function CompareMode() {
 }
 
 function TeamMode() {
-  const [abbr, setAbbr] = useState(getFavoriteTeam());
+  const [fav] = useFavoriteTeam();
+  const [abbr, setAbbr] = useState(fav);
   const teams = useTeams();
   const q = useTeamStats(abbr);
   return (

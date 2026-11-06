@@ -22,6 +22,12 @@ describe('settings', () => {
     expect(getFavoriteTeam()).toBe('min');
     expect(() => setFavoriteTeam('lal')).not.toThrow();
   });
+  it('keeps the choice in memory when storage is unavailable', () => {
+    vi.spyOn(Storage.prototype, 'getItem').mockImplementation(() => { throw new Error('denied'); });
+    vi.spyOn(Storage.prototype, 'setItem').mockImplementation(() => { throw new Error('denied'); });
+    setFavoriteTeam('bos');
+    expect(getFavoriteTeam()).toBe('bos');
+  });
   it('has 30 teams', () => {
     expect(TEAM_ABBRS).toHaveLength(30);
     expect(TEAM_ABBRS).toContain('min');

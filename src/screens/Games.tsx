@@ -1,7 +1,7 @@
 import { useSearchParams } from 'react-router-dom';
 import { useGamesForDay } from '../hooks/queries';
 import { addDays, formatJstDateLabel, todayJst } from '../lib/dates';
-import { getFavoriteTeam } from '../lib/settings';
+import { useFavoriteTeam } from '../lib/settings';
 import ScoreCard from '../components/ScoreCard';
 import ErrorState from '../components/ErrorState';
 import StaleBadge from '../components/StaleBadge';
@@ -14,7 +14,7 @@ export default function Games() {
   const day = raw && DATE_RE.test(raw) ? raw : todayJst();
   const q = useGamesForDay(day);
   const go = (n: number) => setParams({ d: addDays(day, n) }, { replace: true });
-  const fav = getFavoriteTeam();
+  const [fav] = useFavoriteTeam();
 
   return (
     <section className="screen">
