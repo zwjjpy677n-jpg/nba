@@ -1,0 +1,4011 @@
+{
+    "count": 4,
+    "pageIndex": 1,
+    "pageSize": 100,
+    "pageCount": 1,
+    "items": [
+        {
+            "id": "4594268",
+            "uuid": "a2edb458-a371-3fba-ba5a-b24dd2fd2d9e",
+            "guid": "a2edb458-a371-3fba-ba5a-b24dd2fd2d9e",
+            "displayName": "Anthony Edwards",
+            "shortName": "A. Edwards",
+            "type": "player",
+            "sport": "basketball",
+            "league": "nba",
+            "leagueRelationships": [
+                {
+                    "type": "league",
+                    "displayName": "NBA",
+                    "core": {
+                        "id": "46",
+                        "uid": "s:40~l:46",
+                        "name": "National Basketball Association",
+                        "displayName": "NBA",
+                        "abbreviation": "NBA",
+                        "slug": "nba",
+                        "isTournament": false,
+                        "season": {
+                            "year": 2027,
+                            "startDate": "2026-09-30T07:00:00.000+00:00",
+                            "endDate": "2027-06-26T06:59:00.000+00:00",
+                            "type": {
+                                "id": "2",
+                                "type": 2,
+                                "name": "Regular Season",
+                                "abbreviation": "reg",
+                                "slug": "regular-season",
+                                "startDate": "2026-10-20T07:00:00.000+00:00",
+                                "endDate": "2027-04-12T06:59:00.000+00:00",
+                                "hasGroups": false,
+                                "hasStandings": true,
+                                "hasLegs": false,
+                                "week": {
+                                    "number": 3,
+                                    "startDate": "2026-11-03T08:00:00.000+00:00",
+                                    "endDate": "2026-11-10T07:59:00.000+00:00",
+                                    "text": "Week 3"
+                                },
+                                "weeks": {},
+                                "year": 2027
+                            },
+                            "types": {
+                                "count": 5,
+                                "pageIndex": 1,
+                                "pageSize": 5,
+                                "pageCount": 1,
+                                "items": [
+                                    {
+                                        "id": "1",
+                                        "type": 1,
+                                        "name": "Preseason",
+                                        "abbreviation": "pre",
+                                        "slug": "preseason",
+                                        "startDate": "2026-09-30T07:00:00.000+00:00",
+                                        "endDate": "2026-10-20T06:59:00.000+00:00",
+                                        "hasGroups": false,
+                                        "hasStandings": true,
+                                        "hasLegs": false,
+                                        "weeks": {},
+                                        "year": 2027
+                                    },
+                                    {
+                                        "id": "2",
+                                        "type": 2,
+                                        "name": "Regular Season",
+                                        "abbreviation": "reg",
+                                        "slug": "regular-season",
+                                        "startDate": "2026-10-20T07:00:00.000+00:00",
+                                        "endDate": "2027-04-12T06:59:00.000+00:00",
+                                        "hasGroups": false,
+                                        "hasStandings": true,
+                                        "hasLegs": false,
+                                        "week": {
+                                            "number": 3,
+                                            "startDate": "2026-11-03T08:00:00.000+00:00",
+                                            "endDate": "2026-11-10T07:59:00.000+00:00",
+                                            "text": "Week 3"
+                                        },
+                                        "weeks": {},
+                                        "year": 2027
+                                    },
+                                    {
+                                        "id": "3",
+                                        "type": 3,
+                                        "name": "Postseason",
+                                        "abbreviation": "post",
+                                        "slug": "post-season",
+                                        "startDate": "2027-04-17T07:00:00.000+00:00",
+                                        "endDate": "2027-06-26T06:59:00.000+00:00",
+                                        "hasGroups": false,
+                                        "hasStandings": false,
+                                        "hasLegs": false,
+                                        "weeks": {},
+                                        "year": 2027
+                                    },
+                                    {
+                                        "id": "4",
+                                        "type": 4,
+                                        "name": "Off Season",
+                                        "abbreviation": "off",
+                                        "slug": "off-season",
+                                        "startDate": "2027-06-26T07:00:00.000+00:00",
+                                        "endDate": "2027-09-30T06:59:00.000+00:00",
+                                        "hasGroups": false,
+                                        "hasStandings": false,
+                                        "hasLegs": false,
+                                        "weeks": {},
+                                        "year": 2027
+                                    },
+                                    {
+                                        "id": "5",
+                                        "type": 5,
+                                        "name": "Play-In Season",
+                                        "abbreviation": "playin",
+                                        "slug": "play-in-season",
+                                        "startDate": "2027-04-12T07:00:00.000+00:00",
+                                        "endDate": "2027-04-17T06:59:00.000+00:00",
+                                        "hasGroups": false,
+                                        "hasStandings": false,
+                                        "hasLegs": false,
+                                        "weeks": {},
+                                        "year": 2027
+                                    }
+                                ]
+                            },
+                            "displayName": "2026-27"
+                        },
+                        "seasons": {},
+                        "logos": [
+                            {
+                                "href": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "default"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500-dark/nba.png&w=500&h=500&transparent=true",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "dark"
+                                ]
+                            }
+                        ],
+                        "links": [
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "index",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/",
+                                "text": "Index",
+                                "shortText": "Index",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "index",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46",
+                                "text": "Index",
+                                "shortText": "Index",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "schedule",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/schedule",
+                                "text": "Schedule",
+                                "shortText": "Schedule",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "schedule",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+                                "text": "Schedule",
+                                "shortText": "Schedule",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "standings",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/standings",
+                                "text": "Standings",
+                                "shortText": "Standings",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "standings",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=standings",
+                                "text": "Standings",
+                                "shortText": "Standings",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "rankings",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/rankings",
+                                "text": "Rankings",
+                                "shortText": "Rankings",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "rankings",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=rankings",
+                                "text": "Rankings",
+                                "shortText": "Rankings",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "scores",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/scoreboard",
+                                "text": "Scores",
+                                "shortText": "Scores",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "scores",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+                                "text": "Scores",
+                                "shortText": "Scores",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "stats",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/stats",
+                                "text": "Stats",
+                                "shortText": "Stats",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "stats",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=stats",
+                                "text": "Stats",
+                                "shortText": "Stats",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "teams",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/teams",
+                                "text": "Teams",
+                                "shortText": "Teams",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "athletes",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/players",
+                                "text": "Players",
+                                "shortText": "Players",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "injuries",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/injuries",
+                                "text": "Injuries",
+                                "shortText": "Injuries",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "odds",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/odds",
+                                "text": "Odds",
+                                "shortText": "Odds",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "odds",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=odds",
+                                "text": "Odds",
+                                "shortText": "Odds",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "playoff-bracket",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/playoff-bracket",
+                                "text": "Bracket",
+                                "shortText": "Bracket",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "playoff-bracket",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=bracket",
+                                "text": "Bracket",
+                                "shortText": "Bracket",
+                                "isExternal": false,
+                                "isPremium": false
+                            }
+                        ],
+                        "franchises": {},
+                        "shortName": "NBA",
+                        "events": {},
+                        "gender": "MALE",
+                        "calendar": {}
+                    }
+                }
+            ],
+            "teamRelationships": [
+                {
+                    "type": "team",
+                    "displayName": "Minnesota Timberwolves",
+                    "core": {
+                        "id": "16",
+                        "uid": "s:40~l:46~t:16",
+                        "guid": "13f727cb-254d-b484-a337-93fcc0047add",
+                        "slug": "minnesota-timberwolves",
+                        "location": "Minnesota",
+                        "name": "Timberwolves",
+                        "abbreviation": "MIN",
+                        "displayName": "Minnesota Timberwolves",
+                        "shortDisplayName": "Timberwolves",
+                        "color": "266092",
+                        "alternateColor": "79bc43",
+                        "isActive": true,
+                        "isAllStar": false,
+                        "logos": [
+                            {
+                                "href": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "default"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/min.png",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "dark"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "scoreboard"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/min.png",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "scoreboard",
+                                    "dark"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/primary_logo_on_white_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_on_white_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/primary_logo_on_black_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_on_black_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/primary_logo_on_primary_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_on_primary_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/primary_logo_on_secondary_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_on_secondary_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/primary_logo_black.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_black"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/primary_logo_white.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_white"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/secondary_logo_on_white_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_on_white_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/secondary_logo_on_black_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_on_black_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/secondary_logo_on_primary_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_on_primary_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/secondary_logo_on_secondary_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_on_secondary_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/secondary_logo_black.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_black"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/secondary_logo_white.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_white"
+                                ]
+                            }
+                        ],
+                        "links": [
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "clubhouse",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves",
+                                "text": "Clubhouse",
+                                "shortText": "Clubhouse",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "roster",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/roster/_/name/min/minnesota-timberwolves",
+                                "text": "Roster",
+                                "shortText": "Roster",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "roster",
+                                    "sportscenter",
+                                    "app",
+                                    "team"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:16&section=roster",
+                                "text": "Roster",
+                                "shortText": "Roster",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "stats",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/stats/_/name/min/minnesota-timberwolves",
+                                "text": "Statistics",
+                                "shortText": "Statistics",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "stats",
+                                    "sportscenter",
+                                    "app",
+                                    "team"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:16&section=stats",
+                                "text": "Statistics",
+                                "shortText": "Statistics",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "schedule",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/schedule/_/name/min",
+                                "text": "Schedule",
+                                "shortText": "Schedule",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "schedule",
+                                    "sportscenter",
+                                    "app",
+                                    "team"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:16&section=scores",
+                                "text": "Schedule",
+                                "shortText": "Schedule",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "photos",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/photos/_/name/min",
+                                "text": "photos",
+                                "shortText": "photos",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "tickets",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.vividseats.com/minnesota-timberwolves-tickets--sports-nba-basketball/performer/553?wsUser=717",
+                                "text": "Tickets",
+                                "shortText": "Tickets",
+                                "isExternal": true,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "draftpicks",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/draft/teams/_/name/min/minnesota-timberwolves",
+                                "text": "Draft Picks",
+                                "shortText": "Draft Picks",
+                                "isExternal": false,
+                                "isPremium": true
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "transactions",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/transactions/_/name/min",
+                                "text": "Transactions",
+                                "shortText": "Transactions",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "injuries",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/injuries/_/name/min",
+                                "text": "Injuries",
+                                "shortText": "Injuries",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "depthchart",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/depth/_/name/min",
+                                "text": "Depth Chart",
+                                "shortText": "Depth Chart",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "depthchart",
+                                    "sportscenter",
+                                    "app",
+                                    "team"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:16&section=depthchart",
+                                "text": "Depth Chart",
+                                "shortText": "Depth Chart",
+                                "isExternal": false,
+                                "isPremium": false
+                            }
+                        ],
+                        "groups": {},
+                        "coaches": {},
+                        "venue": {
+                            "id": "2029",
+                            "fullName": "Target Center",
+                            "shortName": "Target Center",
+                            "address": {
+                                "city": "Minneapolis",
+                                "state": "MN"
+                            },
+                            "grass": false,
+                            "indoor": true,
+                            "images": [
+                                {
+                                    "href": "https://a.espncdn.com/i/venues/nba/day/2029.jpg",
+                                    "width": 2000,
+                                    "height": 1125,
+                                    "rel": [
+                                        "full",
+                                        "day"
+                                    ]
+                                }
+                            ]
+                        },
+                        "record": {},
+                        "athletes": {},
+                        "againstTheSpreadRecords": {},
+                        "ranks": {},
+                        "franchise": {}
+                    }
+                }
+            ],
+            "jersey": "5",
+            "position": {
+                "id": "3",
+                "name": "Guard",
+                "displayName": "Guard",
+                "abbreviation": "G",
+                "leaf": false,
+                "slug": "guard"
+            },
+            "relevance": "21353500",
+            "isActive": true,
+            "isRetired": false,
+            "defaultLeagueSlug": "nba",
+            "label": "NBA - Minnesota Timberwolves",
+            "uid": "s:40~l:46~a:4594268",
+            "headshot": {
+                "href": "https://a.espncdn.com/i/headshots/nba/players/full/4594268.png",
+                "alt": "Anthony Edwards"
+            },
+            "links": [
+                {
+                    "language": "en",
+                    "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards",
+                    "text": "Player Card",
+                    "shortText": "Player Card",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "stats",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/stats/_/id/4594268/anthony-edwards",
+                    "text": "Stats",
+                    "shortText": "Stats",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "athlete"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:4594268&section=stats",
+                    "text": "Stats",
+                    "shortText": "Stats",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "splits",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/splits/_/id/4594268/anthony-edwards",
+                    "text": "Splits",
+                    "shortText": "Splits",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamelog",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/gamelog/_/id/4594268/anthony-edwards",
+                    "text": "Game Log",
+                    "shortText": "Game Log",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamelog",
+                        "sportscenter",
+                        "app",
+                        "athlete"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:4594268&section=gamelog",
+                    "text": "Game Log",
+                    "shortText": "Game Log",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "news",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/news/_/id/4594268/anthony-edwards",
+                    "text": "News",
+                    "shortText": "News",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "news",
+                        "sportscenter",
+                        "app",
+                        "athlete"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:4594268&section=news",
+                    "text": "News",
+                    "shortText": "News",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "bio",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/bio/_/id/4594268/anthony-edwards",
+                    "text": "Bio",
+                    "shortText": "Bio",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "bio",
+                        "sportscenter",
+                        "app",
+                        "athlete"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:4594268&section=bio",
+                    "text": "Bio",
+                    "shortText": "Bio",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "overview",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards",
+                    "text": "Overview",
+                    "shortText": "Overview",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "overview",
+                        "sportscenter",
+                        "app",
+                        "athlete"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:4594268",
+                    "text": "Overview",
+                    "shortText": "Overview",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "advancedstats",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/advancedstats/_/id/4594268/anthony-edwards",
+                    "text": "Advanced Stats",
+                    "shortText": "Advanced Stats",
+                    "isExternal": false,
+                    "isPremium": false
+                }
+            ],
+            "includeSponsor": false,
+            "showKey": false,
+            "isLocked": false
+        },
+        {
+            "id": "4711297",
+            "uuid": "4af59974-aade-3656-b812-14c681b66b01",
+            "guid": "4af59974-aade-3656-b812-14c681b66b01",
+            "displayName": "Justin Edwards",
+            "shortName": "J. Edwards",
+            "type": "player",
+            "sport": "basketball",
+            "league": "nba",
+            "leagueRelationships": [
+                {
+                    "type": "league",
+                    "displayName": "NBA",
+                    "core": {
+                        "id": "46",
+                        "uid": "s:40~l:46",
+                        "name": "National Basketball Association",
+                        "displayName": "NBA",
+                        "abbreviation": "NBA",
+                        "slug": "nba",
+                        "isTournament": false,
+                        "season": {
+                            "year": 2027,
+                            "startDate": "2026-09-30T07:00:00.000+00:00",
+                            "endDate": "2027-06-26T06:59:00.000+00:00",
+                            "type": {
+                                "id": "2",
+                                "type": 2,
+                                "name": "Regular Season",
+                                "abbreviation": "reg",
+                                "slug": "regular-season",
+                                "startDate": "2026-10-20T07:00:00.000+00:00",
+                                "endDate": "2027-04-12T06:59:00.000+00:00",
+                                "hasGroups": false,
+                                "hasStandings": true,
+                                "hasLegs": false,
+                                "week": {
+                                    "number": 3,
+                                    "startDate": "2026-11-03T08:00:00.000+00:00",
+                                    "endDate": "2026-11-10T07:59:00.000+00:00",
+                                    "text": "Week 3"
+                                },
+                                "weeks": {},
+                                "year": 2027
+                            },
+                            "types": {
+                                "count": 5,
+                                "pageIndex": 1,
+                                "pageSize": 5,
+                                "pageCount": 1,
+                                "items": [
+                                    {
+                                        "id": "1",
+                                        "type": 1,
+                                        "name": "Preseason",
+                                        "abbreviation": "pre",
+                                        "slug": "preseason",
+                                        "startDate": "2026-09-30T07:00:00.000+00:00",
+                                        "endDate": "2026-10-20T06:59:00.000+00:00",
+                                        "hasGroups": false,
+                                        "hasStandings": true,
+                                        "hasLegs": false,
+                                        "weeks": {},
+                                        "year": 2027
+                                    },
+                                    {
+                                        "id": "2",
+                                        "type": 2,
+                                        "name": "Regular Season",
+                                        "abbreviation": "reg",
+                                        "slug": "regular-season",
+                                        "startDate": "2026-10-20T07:00:00.000+00:00",
+                                        "endDate": "2027-04-12T06:59:00.000+00:00",
+                                        "hasGroups": false,
+                                        "hasStandings": true,
+                                        "hasLegs": false,
+                                        "week": {
+                                            "number": 3,
+                                            "startDate": "2026-11-03T08:00:00.000+00:00",
+                                            "endDate": "2026-11-10T07:59:00.000+00:00",
+                                            "text": "Week 3"
+                                        },
+                                        "weeks": {},
+                                        "year": 2027
+                                    },
+                                    {
+                                        "id": "3",
+                                        "type": 3,
+                                        "name": "Postseason",
+                                        "abbreviation": "post",
+                                        "slug": "post-season",
+                                        "startDate": "2027-04-17T07:00:00.000+00:00",
+                                        "endDate": "2027-06-26T06:59:00.000+00:00",
+                                        "hasGroups": false,
+                                        "hasStandings": false,
+                                        "hasLegs": false,
+                                        "weeks": {},
+                                        "year": 2027
+                                    },
+                                    {
+                                        "id": "4",
+                                        "type": 4,
+                                        "name": "Off Season",
+                                        "abbreviation": "off",
+                                        "slug": "off-season",
+                                        "startDate": "2027-06-26T07:00:00.000+00:00",
+                                        "endDate": "2027-09-30T06:59:00.000+00:00",
+                                        "hasGroups": false,
+                                        "hasStandings": false,
+                                        "hasLegs": false,
+                                        "weeks": {},
+                                        "year": 2027
+                                    },
+                                    {
+                                        "id": "5",
+                                        "type": 5,
+                                        "name": "Play-In Season",
+                                        "abbreviation": "playin",
+                                        "slug": "play-in-season",
+                                        "startDate": "2027-04-12T07:00:00.000+00:00",
+                                        "endDate": "2027-04-17T06:59:00.000+00:00",
+                                        "hasGroups": false,
+                                        "hasStandings": false,
+                                        "hasLegs": false,
+                                        "weeks": {},
+                                        "year": 2027
+                                    }
+                                ]
+                            },
+                            "displayName": "2026-27"
+                        },
+                        "seasons": {},
+                        "logos": [
+                            {
+                                "href": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "default"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500-dark/nba.png&w=500&h=500&transparent=true",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "dark"
+                                ]
+                            }
+                        ],
+                        "links": [
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "index",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/",
+                                "text": "Index",
+                                "shortText": "Index",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "index",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46",
+                                "text": "Index",
+                                "shortText": "Index",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "schedule",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/schedule",
+                                "text": "Schedule",
+                                "shortText": "Schedule",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "schedule",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+                                "text": "Schedule",
+                                "shortText": "Schedule",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "standings",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/standings",
+                                "text": "Standings",
+                                "shortText": "Standings",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "standings",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=standings",
+                                "text": "Standings",
+                                "shortText": "Standings",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "rankings",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/rankings",
+                                "text": "Rankings",
+                                "shortText": "Rankings",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "rankings",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=rankings",
+                                "text": "Rankings",
+                                "shortText": "Rankings",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "scores",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/scoreboard",
+                                "text": "Scores",
+                                "shortText": "Scores",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "scores",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+                                "text": "Scores",
+                                "shortText": "Scores",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "stats",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/stats",
+                                "text": "Stats",
+                                "shortText": "Stats",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "stats",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=stats",
+                                "text": "Stats",
+                                "shortText": "Stats",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "teams",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/teams",
+                                "text": "Teams",
+                                "shortText": "Teams",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "athletes",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/players",
+                                "text": "Players",
+                                "shortText": "Players",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "injuries",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/injuries",
+                                "text": "Injuries",
+                                "shortText": "Injuries",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "odds",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/odds",
+                                "text": "Odds",
+                                "shortText": "Odds",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "odds",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=odds",
+                                "text": "Odds",
+                                "shortText": "Odds",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "playoff-bracket",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/playoff-bracket",
+                                "text": "Bracket",
+                                "shortText": "Bracket",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "playoff-bracket",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=bracket",
+                                "text": "Bracket",
+                                "shortText": "Bracket",
+                                "isExternal": false,
+                                "isPremium": false
+                            }
+                        ],
+                        "franchises": {},
+                        "shortName": "NBA",
+                        "events": {},
+                        "gender": "MALE",
+                        "calendar": {}
+                    }
+                }
+            ],
+            "teamRelationships": [
+                {
+                    "type": "team",
+                    "displayName": "Philadelphia 76ers",
+                    "core": {
+                        "id": "20",
+                        "uid": "s:40~l:46~t:20",
+                        "guid": "ca1685ed-b799-53e4-7924-e58ea6eb8f3a",
+                        "slug": "philadelphia-76ers",
+                        "location": "Philadelphia",
+                        "name": "76ers",
+                        "abbreviation": "PHI",
+                        "displayName": "Philadelphia 76ers",
+                        "shortDisplayName": "76ers",
+                        "color": "1d428a",
+                        "alternateColor": "e01234",
+                        "isActive": true,
+                        "isAllStar": false,
+                        "logos": [
+                            {
+                                "href": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "default"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/phi.png",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "dark"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "scoreboard"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phi.png",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "scoreboard",
+                                    "dark"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/ca1685ed-b799-53e4-7924-e58ea6eb8f3a/logos/primary_logo_on_white_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_on_white_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/ca1685ed-b799-53e4-7924-e58ea6eb8f3a/logos/primary_logo_on_black_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_on_black_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/ca1685ed-b799-53e4-7924-e58ea6eb8f3a/logos/primary_logo_on_primary_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_on_primary_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/ca1685ed-b799-53e4-7924-e58ea6eb8f3a/logos/primary_logo_on_secondary_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_on_secondary_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/ca1685ed-b799-53e4-7924-e58ea6eb8f3a/logos/primary_logo_black.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_black"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/ca1685ed-b799-53e4-7924-e58ea6eb8f3a/logos/primary_logo_white.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_white"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/ca1685ed-b799-53e4-7924-e58ea6eb8f3a/logos/secondary_logo_on_white_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_on_white_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/ca1685ed-b799-53e4-7924-e58ea6eb8f3a/logos/secondary_logo_on_black_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_on_black_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/ca1685ed-b799-53e4-7924-e58ea6eb8f3a/logos/secondary_logo_on_primary_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_on_primary_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/ca1685ed-b799-53e4-7924-e58ea6eb8f3a/logos/secondary_logo_on_secondary_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_on_secondary_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/ca1685ed-b799-53e4-7924-e58ea6eb8f3a/logos/secondary_logo_black.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_black"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/ca1685ed-b799-53e4-7924-e58ea6eb8f3a/logos/secondary_logo_white.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_white"
+                                ]
+                            }
+                        ],
+                        "links": [
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "clubhouse",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/_/name/phi/philadelphia-76ers",
+                                "text": "Clubhouse",
+                                "shortText": "Clubhouse",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "roster",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/roster/_/name/phi/philadelphia-76ers",
+                                "text": "Roster",
+                                "shortText": "Roster",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "roster",
+                                    "sportscenter",
+                                    "app",
+                                    "team"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:20&section=roster",
+                                "text": "Roster",
+                                "shortText": "Roster",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "stats",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/stats/_/name/phi/philadelphia-76ers",
+                                "text": "Statistics",
+                                "shortText": "Statistics",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "stats",
+                                    "sportscenter",
+                                    "app",
+                                    "team"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:20&section=stats",
+                                "text": "Statistics",
+                                "shortText": "Statistics",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "schedule",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/schedule/_/name/phi",
+                                "text": "Schedule",
+                                "shortText": "Schedule",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "schedule",
+                                    "sportscenter",
+                                    "app",
+                                    "team"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:20&section=scores",
+                                "text": "Schedule",
+                                "shortText": "Schedule",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "photos",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/photos/_/name/phi",
+                                "text": "photos",
+                                "shortText": "photos",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "tickets",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.vividseats.com/philadelphia-76ers-tickets--sports-nba-basketball/performer/668?wsUser=717",
+                                "text": "Tickets",
+                                "shortText": "Tickets",
+                                "isExternal": true,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "draftpicks",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/draft/teams/_/name/phi/philadelphia-76ers",
+                                "text": "Draft Picks",
+                                "shortText": "Draft Picks",
+                                "isExternal": false,
+                                "isPremium": true
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "transactions",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/transactions/_/name/phi",
+                                "text": "Transactions",
+                                "shortText": "Transactions",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "injuries",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/injuries/_/name/phi",
+                                "text": "Injuries",
+                                "shortText": "Injuries",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "depthchart",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/depth/_/name/phi",
+                                "text": "Depth Chart",
+                                "shortText": "Depth Chart",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "depthchart",
+                                    "sportscenter",
+                                    "app",
+                                    "team"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:20&section=depthchart",
+                                "text": "Depth Chart",
+                                "shortText": "Depth Chart",
+                                "isExternal": false,
+                                "isPremium": false
+                            }
+                        ],
+                        "groups": {},
+                        "coaches": {},
+                        "venue": {
+                            "id": "1845",
+                            "fullName": "Xfinity Mobile Arena",
+                            "shortName": "Wells Fargo Center",
+                            "address": {
+                                "city": "Philadelphia",
+                                "state": "PA"
+                            },
+                            "grass": false,
+                            "indoor": true,
+                            "images": [
+                                {
+                                    "href": "https://a.espncdn.com/i/venues/nba/day/1845.jpg",
+                                    "width": 2000,
+                                    "height": 1125,
+                                    "rel": [
+                                        "full",
+                                        "day"
+                                    ]
+                                }
+                            ]
+                        },
+                        "record": {},
+                        "athletes": {},
+                        "againstTheSpreadRecords": {},
+                        "ranks": {},
+                        "franchise": {}
+                    }
+                }
+            ],
+            "jersey": "11",
+            "position": {
+                "id": "7",
+                "name": "Forward",
+                "displayName": "Forward",
+                "abbreviation": "F",
+                "leaf": false,
+                "slug": "forward"
+            },
+            "relevance": "9603",
+            "isActive": true,
+            "isRetired": false,
+            "defaultLeagueSlug": "nba",
+            "label": "NBA - Philadelphia 76ers",
+            "uid": "s:40~l:46~a:4711297",
+            "headshot": {
+                "href": "https://a.espncdn.com/i/headshots/nba/players/full/4711297.png",
+                "alt": "Justin Edwards"
+            },
+            "links": [
+                {
+                    "language": "en",
+                    "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/_/id/4711297/justin-edwards",
+                    "text": "Player Card",
+                    "shortText": "Player Card",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "stats",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/stats/_/id/4711297/justin-edwards",
+                    "text": "Stats",
+                    "shortText": "Stats",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "athlete"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:4711297&section=stats",
+                    "text": "Stats",
+                    "shortText": "Stats",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "splits",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/splits/_/id/4711297/justin-edwards",
+                    "text": "Splits",
+                    "shortText": "Splits",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamelog",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/gamelog/_/id/4711297/justin-edwards",
+                    "text": "Game Log",
+                    "shortText": "Game Log",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamelog",
+                        "sportscenter",
+                        "app",
+                        "athlete"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:4711297&section=gamelog",
+                    "text": "Game Log",
+                    "shortText": "Game Log",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "news",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/news/_/id/4711297/justin-edwards",
+                    "text": "News",
+                    "shortText": "News",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "news",
+                        "sportscenter",
+                        "app",
+                        "athlete"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:4711297&section=news",
+                    "text": "News",
+                    "shortText": "News",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "bio",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/bio/_/id/4711297/justin-edwards",
+                    "text": "Bio",
+                    "shortText": "Bio",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "bio",
+                        "sportscenter",
+                        "app",
+                        "athlete"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:4711297&section=bio",
+                    "text": "Bio",
+                    "shortText": "Bio",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "overview",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/_/id/4711297/justin-edwards",
+                    "text": "Overview",
+                    "shortText": "Overview",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "overview",
+                        "sportscenter",
+                        "app",
+                        "athlete"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:4711297",
+                    "text": "Overview",
+                    "shortText": "Overview",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "advancedstats",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/advancedstats/_/id/4711297/justin-edwards",
+                    "text": "Advanced Stats",
+                    "shortText": "Advanced Stats",
+                    "isExternal": false,
+                    "isPremium": false
+                }
+            ],
+            "includeSponsor": false,
+            "showKey": false,
+            "isLocked": false
+        },
+        {
+            "id": "4431816",
+            "uuid": "2bef44c5-886c-3758-88d3-ff27cce3f62d",
+            "guid": "2bef44c5-886c-3758-88d3-ff27cce3f62d",
+            "displayName": "Jesse Edwards",
+            "shortName": "J. Edwards",
+            "type": "player",
+            "sport": "basketball",
+            "league": "nba",
+            "leagueRelationships": [
+                {
+                    "type": "league",
+                    "displayName": "NBA",
+                    "core": {
+                        "id": "46",
+                        "uid": "s:40~l:46",
+                        "name": "National Basketball Association",
+                        "displayName": "NBA",
+                        "abbreviation": "NBA",
+                        "slug": "nba",
+                        "isTournament": false,
+                        "season": {
+                            "year": 2027,
+                            "startDate": "2026-09-30T07:00:00.000+00:00",
+                            "endDate": "2027-06-26T06:59:00.000+00:00",
+                            "type": {
+                                "id": "2",
+                                "type": 2,
+                                "name": "Regular Season",
+                                "abbreviation": "reg",
+                                "slug": "regular-season",
+                                "startDate": "2026-10-20T07:00:00.000+00:00",
+                                "endDate": "2027-04-12T06:59:00.000+00:00",
+                                "hasGroups": false,
+                                "hasStandings": true,
+                                "hasLegs": false,
+                                "week": {
+                                    "number": 3,
+                                    "startDate": "2026-11-03T08:00:00.000+00:00",
+                                    "endDate": "2026-11-10T07:59:00.000+00:00",
+                                    "text": "Week 3"
+                                },
+                                "weeks": {},
+                                "year": 2027
+                            },
+                            "types": {
+                                "count": 5,
+                                "pageIndex": 1,
+                                "pageSize": 5,
+                                "pageCount": 1,
+                                "items": [
+                                    {
+                                        "id": "1",
+                                        "type": 1,
+                                        "name": "Preseason",
+                                        "abbreviation": "pre",
+                                        "slug": "preseason",
+                                        "startDate": "2026-09-30T07:00:00.000+00:00",
+                                        "endDate": "2026-10-20T06:59:00.000+00:00",
+                                        "hasGroups": false,
+                                        "hasStandings": true,
+                                        "hasLegs": false,
+                                        "weeks": {},
+                                        "year": 2027
+                                    },
+                                    {
+                                        "id": "2",
+                                        "type": 2,
+                                        "name": "Regular Season",
+                                        "abbreviation": "reg",
+                                        "slug": "regular-season",
+                                        "startDate": "2026-10-20T07:00:00.000+00:00",
+                                        "endDate": "2027-04-12T06:59:00.000+00:00",
+                                        "hasGroups": false,
+                                        "hasStandings": true,
+                                        "hasLegs": false,
+                                        "week": {
+                                            "number": 3,
+                                            "startDate": "2026-11-03T08:00:00.000+00:00",
+                                            "endDate": "2026-11-10T07:59:00.000+00:00",
+                                            "text": "Week 3"
+                                        },
+                                        "weeks": {},
+                                        "year": 2027
+                                    },
+                                    {
+                                        "id": "3",
+                                        "type": 3,
+                                        "name": "Postseason",
+                                        "abbreviation": "post",
+                                        "slug": "post-season",
+                                        "startDate": "2027-04-17T07:00:00.000+00:00",
+                                        "endDate": "2027-06-26T06:59:00.000+00:00",
+                                        "hasGroups": false,
+                                        "hasStandings": false,
+                                        "hasLegs": false,
+                                        "weeks": {},
+                                        "year": 2027
+                                    },
+                                    {
+                                        "id": "4",
+                                        "type": 4,
+                                        "name": "Off Season",
+                                        "abbreviation": "off",
+                                        "slug": "off-season",
+                                        "startDate": "2027-06-26T07:00:00.000+00:00",
+                                        "endDate": "2027-09-30T06:59:00.000+00:00",
+                                        "hasGroups": false,
+                                        "hasStandings": false,
+                                        "hasLegs": false,
+                                        "weeks": {},
+                                        "year": 2027
+                                    },
+                                    {
+                                        "id": "5",
+                                        "type": 5,
+                                        "name": "Play-In Season",
+                                        "abbreviation": "playin",
+                                        "slug": "play-in-season",
+                                        "startDate": "2027-04-12T07:00:00.000+00:00",
+                                        "endDate": "2027-04-17T06:59:00.000+00:00",
+                                        "hasGroups": false,
+                                        "hasStandings": false,
+                                        "hasLegs": false,
+                                        "weeks": {},
+                                        "year": 2027
+                                    }
+                                ]
+                            },
+                            "displayName": "2026-27"
+                        },
+                        "seasons": {},
+                        "logos": [
+                            {
+                                "href": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "default"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500-dark/nba.png&w=500&h=500&transparent=true",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "dark"
+                                ]
+                            }
+                        ],
+                        "links": [
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "index",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/",
+                                "text": "Index",
+                                "shortText": "Index",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "index",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46",
+                                "text": "Index",
+                                "shortText": "Index",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "schedule",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/schedule",
+                                "text": "Schedule",
+                                "shortText": "Schedule",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "schedule",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+                                "text": "Schedule",
+                                "shortText": "Schedule",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "standings",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/standings",
+                                "text": "Standings",
+                                "shortText": "Standings",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "standings",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=standings",
+                                "text": "Standings",
+                                "shortText": "Standings",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "rankings",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/rankings",
+                                "text": "Rankings",
+                                "shortText": "Rankings",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "rankings",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=rankings",
+                                "text": "Rankings",
+                                "shortText": "Rankings",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "scores",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/scoreboard",
+                                "text": "Scores",
+                                "shortText": "Scores",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "scores",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+                                "text": "Scores",
+                                "shortText": "Scores",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "stats",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/stats",
+                                "text": "Stats",
+                                "shortText": "Stats",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "stats",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=stats",
+                                "text": "Stats",
+                                "shortText": "Stats",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "teams",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/teams",
+                                "text": "Teams",
+                                "shortText": "Teams",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "athletes",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/players",
+                                "text": "Players",
+                                "shortText": "Players",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "injuries",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/injuries",
+                                "text": "Injuries",
+                                "shortText": "Injuries",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "odds",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/odds",
+                                "text": "Odds",
+                                "shortText": "Odds",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "odds",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=odds",
+                                "text": "Odds",
+                                "shortText": "Odds",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "playoff-bracket",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/playoff-bracket",
+                                "text": "Bracket",
+                                "shortText": "Bracket",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "playoff-bracket",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=bracket",
+                                "text": "Bracket",
+                                "shortText": "Bracket",
+                                "isExternal": false,
+                                "isPremium": false
+                            }
+                        ],
+                        "franchises": {},
+                        "shortName": "NBA",
+                        "events": {},
+                        "gender": "MALE",
+                        "calendar": {}
+                    }
+                }
+            ],
+            "teamRelationships": [
+                {
+                    "type": "team",
+                    "displayName": "Minnesota Timberwolves",
+                    "core": {
+                        "id": "16",
+                        "uid": "s:40~l:46~t:16",
+                        "guid": "13f727cb-254d-b484-a337-93fcc0047add",
+                        "slug": "minnesota-timberwolves",
+                        "location": "Minnesota",
+                        "name": "Timberwolves",
+                        "abbreviation": "MIN",
+                        "displayName": "Minnesota Timberwolves",
+                        "shortDisplayName": "Timberwolves",
+                        "color": "266092",
+                        "alternateColor": "79bc43",
+                        "isActive": true,
+                        "isAllStar": false,
+                        "logos": [
+                            {
+                                "href": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "default"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/min.png",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "dark"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "scoreboard"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/min.png",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "scoreboard",
+                                    "dark"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/primary_logo_on_white_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_on_white_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/primary_logo_on_black_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_on_black_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/primary_logo_on_primary_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_on_primary_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/primary_logo_on_secondary_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_on_secondary_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/primary_logo_black.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_black"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/primary_logo_white.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_white"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/secondary_logo_on_white_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_on_white_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/secondary_logo_on_black_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_on_black_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/secondary_logo_on_primary_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_on_primary_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/secondary_logo_on_secondary_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_on_secondary_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/secondary_logo_black.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_black"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/13f727cb-254d-b484-a337-93fcc0047add/logos/secondary_logo_white.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_white"
+                                ]
+                            }
+                        ],
+                        "links": [
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "clubhouse",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/_/name/min/minnesota-timberwolves",
+                                "text": "Clubhouse",
+                                "shortText": "Clubhouse",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "roster",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/roster/_/name/min/minnesota-timberwolves",
+                                "text": "Roster",
+                                "shortText": "Roster",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "roster",
+                                    "sportscenter",
+                                    "app",
+                                    "team"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:16&section=roster",
+                                "text": "Roster",
+                                "shortText": "Roster",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "stats",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/stats/_/name/min/minnesota-timberwolves",
+                                "text": "Statistics",
+                                "shortText": "Statistics",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "stats",
+                                    "sportscenter",
+                                    "app",
+                                    "team"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:16&section=stats",
+                                "text": "Statistics",
+                                "shortText": "Statistics",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "schedule",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/schedule/_/name/min",
+                                "text": "Schedule",
+                                "shortText": "Schedule",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "schedule",
+                                    "sportscenter",
+                                    "app",
+                                    "team"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:16&section=scores",
+                                "text": "Schedule",
+                                "shortText": "Schedule",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "photos",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/photos/_/name/min",
+                                "text": "photos",
+                                "shortText": "photos",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "tickets",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.vividseats.com/minnesota-timberwolves-tickets--sports-nba-basketball/performer/553?wsUser=717",
+                                "text": "Tickets",
+                                "shortText": "Tickets",
+                                "isExternal": true,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "draftpicks",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/draft/teams/_/name/min/minnesota-timberwolves",
+                                "text": "Draft Picks",
+                                "shortText": "Draft Picks",
+                                "isExternal": false,
+                                "isPremium": true
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "transactions",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/transactions/_/name/min",
+                                "text": "Transactions",
+                                "shortText": "Transactions",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "injuries",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/injuries/_/name/min",
+                                "text": "Injuries",
+                                "shortText": "Injuries",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "depthchart",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/depth/_/name/min",
+                                "text": "Depth Chart",
+                                "shortText": "Depth Chart",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "depthchart",
+                                    "sportscenter",
+                                    "app",
+                                    "team"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:16&section=depthchart",
+                                "text": "Depth Chart",
+                                "shortText": "Depth Chart",
+                                "isExternal": false,
+                                "isPremium": false
+                            }
+                        ],
+                        "groups": {},
+                        "coaches": {},
+                        "venue": {
+                            "id": "2029",
+                            "fullName": "Target Center",
+                            "shortName": "Target Center",
+                            "address": {
+                                "city": "Minneapolis",
+                                "state": "MN"
+                            },
+                            "grass": false,
+                            "indoor": true,
+                            "images": [
+                                {
+                                    "href": "https://a.espncdn.com/i/venues/nba/day/2029.jpg",
+                                    "width": 2000,
+                                    "height": 1125,
+                                    "rel": [
+                                        "full",
+                                        "day"
+                                    ]
+                                }
+                            ]
+                        },
+                        "record": {},
+                        "athletes": {},
+                        "againstTheSpreadRecords": {},
+                        "ranks": {},
+                        "franchise": {}
+                    }
+                }
+            ],
+            "jersey": "14",
+            "position": {
+                "id": "9",
+                "name": "Center",
+                "displayName": "Center",
+                "abbreviation": "C",
+                "leaf": false,
+                "slug": "center"
+            },
+            "isActive": true,
+            "isRetired": false,
+            "defaultLeagueSlug": "nba",
+            "label": "NBA - Minnesota Timberwolves",
+            "uid": "s:40~l:46~a:4431816",
+            "headshot": {
+                "href": "https://a.espncdn.com/i/headshots/nba/players/full/4431816.png",
+                "alt": "Jesse Edwards"
+            },
+            "links": [
+                {
+                    "language": "en",
+                    "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/_/id/4431816/jesse-edwards",
+                    "text": "Player Card",
+                    "shortText": "Player Card",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "stats",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/stats/_/id/4431816/jesse-edwards",
+                    "text": "Stats",
+                    "shortText": "Stats",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "athlete"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:4431816&section=stats",
+                    "text": "Stats",
+                    "shortText": "Stats",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "splits",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/splits/_/id/4431816/jesse-edwards",
+                    "text": "Splits",
+                    "shortText": "Splits",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamelog",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/gamelog/_/id/4431816/jesse-edwards",
+                    "text": "Game Log",
+                    "shortText": "Game Log",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamelog",
+                        "sportscenter",
+                        "app",
+                        "athlete"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:4431816&section=gamelog",
+                    "text": "Game Log",
+                    "shortText": "Game Log",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "news",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/news/_/id/4431816/jesse-edwards",
+                    "text": "News",
+                    "shortText": "News",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "news",
+                        "sportscenter",
+                        "app",
+                        "athlete"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:4431816&section=news",
+                    "text": "News",
+                    "shortText": "News",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "bio",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/bio/_/id/4431816/jesse-edwards",
+                    "text": "Bio",
+                    "shortText": "Bio",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "bio",
+                        "sportscenter",
+                        "app",
+                        "athlete"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:4431816&section=bio",
+                    "text": "Bio",
+                    "shortText": "Bio",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "overview",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/_/id/4431816/jesse-edwards",
+                    "text": "Overview",
+                    "shortText": "Overview",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "overview",
+                        "sportscenter",
+                        "app",
+                        "athlete"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:4431816",
+                    "text": "Overview",
+                    "shortText": "Overview",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "advancedstats",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/advancedstats/_/id/4431816/jesse-edwards",
+                    "text": "Advanced Stats",
+                    "shortText": "Advanced Stats",
+                    "isExternal": false,
+                    "isPremium": false
+                }
+            ],
+            "includeSponsor": false,
+            "showKey": false,
+            "isLocked": false
+        },
+        {
+            "id": "4397693",
+            "uuid": "d6988a51-b1f8-d74d-b842-7343debf823e",
+            "guid": "d6988a51-b1f8-d74d-b842-7343debf823e",
+            "displayName": "Kessler Edwards",
+            "shortName": "K. Edwards",
+            "type": "player",
+            "sport": "basketball",
+            "league": "nba",
+            "leagueRelationships": [
+                {
+                    "type": "league",
+                    "displayName": "NBA",
+                    "core": {
+                        "id": "46",
+                        "uid": "s:40~l:46",
+                        "name": "National Basketball Association",
+                        "displayName": "NBA",
+                        "abbreviation": "NBA",
+                        "slug": "nba",
+                        "isTournament": false,
+                        "season": {
+                            "year": 2027,
+                            "startDate": "2026-09-30T07:00:00.000+00:00",
+                            "endDate": "2027-06-26T06:59:00.000+00:00",
+                            "type": {
+                                "id": "2",
+                                "type": 2,
+                                "name": "Regular Season",
+                                "abbreviation": "reg",
+                                "slug": "regular-season",
+                                "startDate": "2026-10-20T07:00:00.000+00:00",
+                                "endDate": "2027-04-12T06:59:00.000+00:00",
+                                "hasGroups": false,
+                                "hasStandings": true,
+                                "hasLegs": false,
+                                "week": {
+                                    "number": 3,
+                                    "startDate": "2026-11-03T08:00:00.000+00:00",
+                                    "endDate": "2026-11-10T07:59:00.000+00:00",
+                                    "text": "Week 3"
+                                },
+                                "weeks": {},
+                                "year": 2027
+                            },
+                            "types": {
+                                "count": 5,
+                                "pageIndex": 1,
+                                "pageSize": 5,
+                                "pageCount": 1,
+                                "items": [
+                                    {
+                                        "id": "1",
+                                        "type": 1,
+                                        "name": "Preseason",
+                                        "abbreviation": "pre",
+                                        "slug": "preseason",
+                                        "startDate": "2026-09-30T07:00:00.000+00:00",
+                                        "endDate": "2026-10-20T06:59:00.000+00:00",
+                                        "hasGroups": false,
+                                        "hasStandings": true,
+                                        "hasLegs": false,
+                                        "weeks": {},
+                                        "year": 2027
+                                    },
+                                    {
+                                        "id": "2",
+                                        "type": 2,
+                                        "name": "Regular Season",
+                                        "abbreviation": "reg",
+                                        "slug": "regular-season",
+                                        "startDate": "2026-10-20T07:00:00.000+00:00",
+                                        "endDate": "2027-04-12T06:59:00.000+00:00",
+                                        "hasGroups": false,
+                                        "hasStandings": true,
+                                        "hasLegs": false,
+                                        "week": {
+                                            "number": 3,
+                                            "startDate": "2026-11-03T08:00:00.000+00:00",
+                                            "endDate": "2026-11-10T07:59:00.000+00:00",
+                                            "text": "Week 3"
+                                        },
+                                        "weeks": {},
+                                        "year": 2027
+                                    },
+                                    {
+                                        "id": "3",
+                                        "type": 3,
+                                        "name": "Postseason",
+                                        "abbreviation": "post",
+                                        "slug": "post-season",
+                                        "startDate": "2027-04-17T07:00:00.000+00:00",
+                                        "endDate": "2027-06-26T06:59:00.000+00:00",
+                                        "hasGroups": false,
+                                        "hasStandings": false,
+                                        "hasLegs": false,
+                                        "weeks": {},
+                                        "year": 2027
+                                    },
+                                    {
+                                        "id": "4",
+                                        "type": 4,
+                                        "name": "Off Season",
+                                        "abbreviation": "off",
+                                        "slug": "off-season",
+                                        "startDate": "2027-06-26T07:00:00.000+00:00",
+                                        "endDate": "2027-09-30T06:59:00.000+00:00",
+                                        "hasGroups": false,
+                                        "hasStandings": false,
+                                        "hasLegs": false,
+                                        "weeks": {},
+                                        "year": 2027
+                                    },
+                                    {
+                                        "id": "5",
+                                        "type": 5,
+                                        "name": "Play-In Season",
+                                        "abbreviation": "playin",
+                                        "slug": "play-in-season",
+                                        "startDate": "2027-04-12T07:00:00.000+00:00",
+                                        "endDate": "2027-04-17T06:59:00.000+00:00",
+                                        "hasGroups": false,
+                                        "hasStandings": false,
+                                        "hasLegs": false,
+                                        "weeks": {},
+                                        "year": 2027
+                                    }
+                                ]
+                            },
+                            "displayName": "2026-27"
+                        },
+                        "seasons": {},
+                        "logos": [
+                            {
+                                "href": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "default"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500-dark/nba.png&w=500&h=500&transparent=true",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "dark"
+                                ]
+                            }
+                        ],
+                        "links": [
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "index",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/",
+                                "text": "Index",
+                                "shortText": "Index",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "index",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46",
+                                "text": "Index",
+                                "shortText": "Index",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "schedule",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/schedule",
+                                "text": "Schedule",
+                                "shortText": "Schedule",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "schedule",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+                                "text": "Schedule",
+                                "shortText": "Schedule",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "standings",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/standings",
+                                "text": "Standings",
+                                "shortText": "Standings",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "standings",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=standings",
+                                "text": "Standings",
+                                "shortText": "Standings",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "rankings",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/rankings",
+                                "text": "Rankings",
+                                "shortText": "Rankings",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "rankings",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=rankings",
+                                "text": "Rankings",
+                                "shortText": "Rankings",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "scores",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/scoreboard",
+                                "text": "Scores",
+                                "shortText": "Scores",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "scores",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=scores",
+                                "text": "Scores",
+                                "shortText": "Scores",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "stats",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/stats",
+                                "text": "Stats",
+                                "shortText": "Stats",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "stats",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=stats",
+                                "text": "Stats",
+                                "shortText": "Stats",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "teams",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/teams",
+                                "text": "Teams",
+                                "shortText": "Teams",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "athletes",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/players",
+                                "text": "Players",
+                                "shortText": "Players",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "injuries",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/injuries",
+                                "text": "Injuries",
+                                "shortText": "Injuries",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "odds",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/odds",
+                                "text": "Odds",
+                                "shortText": "Odds",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "odds",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=odds",
+                                "text": "Odds",
+                                "shortText": "Odds",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "playoff-bracket",
+                                    "desktop",
+                                    "league"
+                                ],
+                                "href": "https://www.espn.com/nba/playoff-bracket",
+                                "text": "Bracket",
+                                "shortText": "Bracket",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "playoff-bracket",
+                                    "sportscenter",
+                                    "app",
+                                    "league"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46&section=bracket",
+                                "text": "Bracket",
+                                "shortText": "Bracket",
+                                "isExternal": false,
+                                "isPremium": false
+                            }
+                        ],
+                        "franchises": {},
+                        "shortName": "NBA",
+                        "events": {},
+                        "gender": "MALE",
+                        "calendar": {}
+                    }
+                }
+            ],
+            "teamRelationships": [
+                {
+                    "type": "team",
+                    "displayName": "Denver Nuggets",
+                    "core": {
+                        "id": "7",
+                        "uid": "s:40~l:46~t:7",
+                        "guid": "c4aceb39-0eb9-a30b-1120-9cb5b12b677a",
+                        "slug": "denver-nuggets",
+                        "location": "Denver",
+                        "name": "Nuggets",
+                        "abbreviation": "DEN",
+                        "displayName": "Denver Nuggets",
+                        "shortDisplayName": "Nuggets",
+                        "color": "0e2240",
+                        "alternateColor": "fec524",
+                        "isActive": true,
+                        "isAllStar": false,
+                        "logos": [
+                            {
+                                "href": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "default"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/den.png",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "dark"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "scoreboard"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/den.png",
+                                "width": 500,
+                                "height": 500,
+                                "rel": [
+                                    "full",
+                                    "scoreboard",
+                                    "dark"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/c4aceb39-0eb9-a30b-1120-9cb5b12b677a/logos/primary_logo_on_white_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_on_white_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/c4aceb39-0eb9-a30b-1120-9cb5b12b677a/logos/primary_logo_on_black_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_on_black_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/c4aceb39-0eb9-a30b-1120-9cb5b12b677a/logos/primary_logo_on_primary_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_on_primary_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/c4aceb39-0eb9-a30b-1120-9cb5b12b677a/logos/primary_logo_on_secondary_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_on_secondary_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/c4aceb39-0eb9-a30b-1120-9cb5b12b677a/logos/primary_logo_black.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_black"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/c4aceb39-0eb9-a30b-1120-9cb5b12b677a/logos/primary_logo_white.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "primary_logo_white"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/c4aceb39-0eb9-a30b-1120-9cb5b12b677a/logos/secondary_logo_on_white_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_on_white_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/c4aceb39-0eb9-a30b-1120-9cb5b12b677a/logos/secondary_logo_on_black_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_on_black_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/c4aceb39-0eb9-a30b-1120-9cb5b12b677a/logos/secondary_logo_on_primary_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_on_primary_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/c4aceb39-0eb9-a30b-1120-9cb5b12b677a/logos/secondary_logo_on_secondary_color.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_on_secondary_color"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/c4aceb39-0eb9-a30b-1120-9cb5b12b677a/logos/secondary_logo_black.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_black"
+                                ]
+                            },
+                            {
+                                "href": "https://a.espncdn.com/guid/c4aceb39-0eb9-a30b-1120-9cb5b12b677a/logos/secondary_logo_white.png",
+                                "width": 4096,
+                                "height": 4096,
+                                "rel": [
+                                    "full",
+                                    "secondary_logo_white"
+                                ]
+                            }
+                        ],
+                        "links": [
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "clubhouse",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/_/name/den/denver-nuggets",
+                                "text": "Clubhouse",
+                                "shortText": "Clubhouse",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "roster",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/roster/_/name/den/denver-nuggets",
+                                "text": "Roster",
+                                "shortText": "Roster",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "roster",
+                                    "sportscenter",
+                                    "app",
+                                    "team"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:7&section=roster",
+                                "text": "Roster",
+                                "shortText": "Roster",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "stats",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/stats/_/name/den/denver-nuggets",
+                                "text": "Statistics",
+                                "shortText": "Statistics",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "stats",
+                                    "sportscenter",
+                                    "app",
+                                    "team"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:7&section=stats",
+                                "text": "Statistics",
+                                "shortText": "Statistics",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "schedule",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/schedule/_/name/den",
+                                "text": "Schedule",
+                                "shortText": "Schedule",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "schedule",
+                                    "sportscenter",
+                                    "app",
+                                    "team"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:7&section=scores",
+                                "text": "Schedule",
+                                "shortText": "Schedule",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "photos",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/photos/_/name/den",
+                                "text": "photos",
+                                "shortText": "photos",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "tickets",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.vividseats.com/denver-nuggets-tickets--sports-nba-basketball/performer/235?wsUser=717",
+                                "text": "Tickets",
+                                "shortText": "Tickets",
+                                "isExternal": true,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "draftpicks",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/draft/teams/_/name/den/denver-nuggets",
+                                "text": "Draft Picks",
+                                "shortText": "Draft Picks",
+                                "isExternal": false,
+                                "isPremium": true
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "transactions",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/transactions/_/name/den",
+                                "text": "Transactions",
+                                "shortText": "Transactions",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "injuries",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/injuries/_/name/den",
+                                "text": "Injuries",
+                                "shortText": "Injuries",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "depthchart",
+                                    "desktop",
+                                    "team"
+                                ],
+                                "href": "https://www.espn.com/nba/team/depth/_/name/den",
+                                "text": "Depth Chart",
+                                "shortText": "Depth Chart",
+                                "isExternal": false,
+                                "isPremium": false
+                            },
+                            {
+                                "language": "en",
+                                "rel": [
+                                    "depthchart",
+                                    "sportscenter",
+                                    "app",
+                                    "team"
+                                ],
+                                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:7&section=depthchart",
+                                "text": "Depth Chart",
+                                "shortText": "Depth Chart",
+                                "isExternal": false,
+                                "isPremium": false
+                            }
+                        ],
+                        "groups": {},
+                        "coaches": {},
+                        "venue": {
+                            "id": "892",
+                            "fullName": "Ball Arena",
+                            "shortName": "Pepsi Center",
+                            "address": {
+                                "city": "Denver",
+                                "state": "CO"
+                            },
+                            "grass": false,
+                            "indoor": true,
+                            "images": [
+                                {
+                                    "href": "https://a.espncdn.com/i/venues/nba/day/892.jpg",
+                                    "width": 2000,
+                                    "height": 1125,
+                                    "rel": [
+                                        "full",
+                                        "day"
+                                    ]
+                                }
+                            ]
+                        },
+                        "record": {},
+                        "athletes": {},
+                        "againstTheSpreadRecords": {},
+                        "ranks": {},
+                        "franchise": {}
+                    }
+                }
+            ],
+            "jersey": "20",
+            "position": {
+                "id": "7",
+                "name": "Forward",
+                "displayName": "Forward",
+                "abbreviation": "F",
+                "leaf": false,
+                "slug": "forward"
+            },
+            "relevance": "26",
+            "isActive": true,
+            "isRetired": false,
+            "defaultLeagueSlug": "nba",
+            "label": "NBA - Denver Nuggets",
+            "uid": "s:40~l:46~a:4397693",
+            "headshot": {
+                "href": "https://a.espncdn.com/i/headshots/nba/players/full/4397693.png",
+                "alt": "Kessler Edwards"
+            },
+            "links": [
+                {
+                    "language": "en",
+                    "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/_/id/4397693/kessler-edwards",
+                    "text": "Player Card",
+                    "shortText": "Player Card",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "stats",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/stats/_/id/4397693/kessler-edwards",
+                    "text": "Stats",
+                    "shortText": "Stats",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "athlete"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:4397693&section=stats",
+                    "text": "Stats",
+                    "shortText": "Stats",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "splits",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/splits/_/id/4397693/kessler-edwards",
+                    "text": "Splits",
+                    "shortText": "Splits",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamelog",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/gamelog/_/id/4397693/kessler-edwards",
+                    "text": "Game Log",
+                    "shortText": "Game Log",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamelog",
+                        "sportscenter",
+                        "app",
+                        "athlete"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:4397693&section=gamelog",
+                    "text": "Game Log",
+                    "shortText": "Game Log",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "news",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/news/_/id/4397693/kessler-edwards",
+                    "text": "News",
+                    "shortText": "News",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "news",
+                        "sportscenter",
+                        "app",
+                        "athlete"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:4397693&section=news",
+                    "text": "News",
+                    "shortText": "News",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "bio",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/bio/_/id/4397693/kessler-edwards",
+                    "text": "Bio",
+                    "shortText": "Bio",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "bio",
+                        "sportscenter",
+                        "app",
+                        "athlete"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:4397693&section=bio",
+                    "text": "Bio",
+                    "shortText": "Bio",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "overview",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/_/id/4397693/kessler-edwards",
+                    "text": "Overview",
+                    "shortText": "Overview",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "overview",
+                        "sportscenter",
+                        "app",
+                        "athlete"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:4397693",
+                    "text": "Overview",
+                    "shortText": "Overview",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "advancedstats",
+                        "desktop",
+                        "athlete"
+                    ],
+                    "href": "https://www.espn.com/nba/player/advancedstats/_/id/4397693/kessler-edwards",
+                    "text": "Advanced Stats",
+                    "shortText": "Advanced Stats",
+                    "isExternal": false,
+                    "isPremium": false
+                }
+            ],
+            "includeSponsor": false,
+            "showKey": false,
+            "isLocked": false
+        }
+    ]
+}
